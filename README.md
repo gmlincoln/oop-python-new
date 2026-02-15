@@ -72,3 +72,51 @@ self.name = name
 Left side → Object variable
 
 Right side → Value passed during object creation
+
+
+### 4️⃣ Instance Variables
+
+Variables created using self inside constructor.
+
+```python
+class Car:
+    def __init__(self, brand, model):
+        self.brand = brand
+        self.model = model
+
+```
+
+Each object will have its own separate data.
+
+
+### 5️⃣ Methods
+
+Functions inside a class are called methods.
+
+```python 
+class Calculator:
+    def add(self, a, b):
+        return a + b
+
+obj = Calculator()
+print(obj.add(5, 3))
+
+```
+
+### 6️⃣ Encapsulation
+📌 Definition
+
+Encapsulation means:
+
+Protecting data and allowing controlled access.
+
+```bash
+        Bank Account
+        -----------------
+        - balance (private)
+        -----------------
+        + deposit()
+        + withdraw()
+        + get_balance()
+
+```
