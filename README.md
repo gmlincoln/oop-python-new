@@ -46,3 +46,29 @@ s2 = Student()
 
 - Student → Blueprint  
 - s1, s2 → Real objects
+
+### 3️⃣ Constructor (__init__)
+
+A constructor runs automatically when an object is created.
+
+```python
+
+class Student:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+s1 = Student("Lincoln", 23)
+
+print(s1.name)
+print(s1.age)
+
+```
+
+#### Explanation
+
+self.name = name
+
+Left side → Object variable
+
+Right side → Value passed during object creation
