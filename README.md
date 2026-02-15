@@ -330,3 +330,17 @@ s = Shape()
 
 
 ```
+
+### 🏛 The 4 Pillars of OOP
+
+```lua
+
+| Concept       | Purpose                         |
+| ------------- | ------------------------------- |
+| Encapsulation | Protect data                    |
+| Inheritance   | Reuse code                      |
+| Polymorphism  | Same method, different behavior |
+| Abstraction   | Force structure                 |
+
+
+```
