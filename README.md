@@ -15,7 +15,7 @@ It helps to build real-world structured and scalable applications.
 
 ---
 
-### 🟢 1️⃣ Class
+### 1️⃣ Class
 
 A class is a blueprint or template.
 
@@ -29,7 +29,7 @@ class Student:
 ##### Student is just a design. It does not hold data ye
 
 
-### 🟢 2️⃣ Object
+### 2️⃣ Object
 
 An object is a real instance of a class.
 
