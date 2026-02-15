@@ -157,7 +157,9 @@ Inheritance means:
 
 A child class can reuse properties and methods of a parent class.
 
-```bash 
+Diagram: 
+
+```lua 
 
             User
         ----------------
@@ -223,5 +225,34 @@ Output:
 ```bash 
 
 Son Method
+
+```
+
+### 9️⃣ Polymorphism
+📌 Definition
+
+Polymorphism means:
+
+Same method name, different behavior.
+
+Diagram: 
+```bash
+        Animal
+        ---------
+        + speak()
+              ↑
+     ------------------
+     |                |
+    Dog              Cat
+  speak()          speak()
+  "Bark"           "Meow"
+
+
+```
+
+
+```python
+
+
 
 ```
