@@ -142,3 +142,53 @@ print(account.get_balance())
 
 
 ```
+
+❌ Direct access is not allowed:
+
+```bash
+account.__balance
+
+```
+
+### 7️⃣ Inheritance
+📌 Definition
+
+Inheritance means:
+
+A child class can reuse properties and methods of a parent class.
+
+```bash 
+
+            User
+        ----------------
+        + username
+        + email
+                ↑
+                |
+    -----------------------
+    |                     |
+ Customer              Admin
+
+
+```
+
+#### Example
+
+```python
+
+class User:
+    def login(self):
+        print("User Logged In")
+
+
+class Admin(User):
+    def delete_user(self):
+        print("User Deleted")
+
+
+admin = Admin()
+admin.login()
+admin.delete_user()
+
+
+```
