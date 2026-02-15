@@ -192,3 +192,36 @@ admin.delete_user()
 
 
 ```
+
+Admin inherits login() from User.
+
+
+
+### 8️⃣ Method Overriding
+
+Child class can modify parent method behavior.
+
+```python
+
+class Father:
+    def show(self):
+        print("Father Method")
+
+
+class Son(Father):
+    def show(self):
+        print("Son Method")
+
+
+obj = Son()
+obj.show()
+
+```
+
+Output: 
+
+```bash 
+
+Son Method
+
+```
