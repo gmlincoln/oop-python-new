@@ -31,4 +31,14 @@ class Student:
 
 ```python
 
+class Student:
+    pass
+
+s1 = Student()
+s2 = Student()
+
+
 ```
+
+- Student → Blueprint  
+- s1, s2 → Real objects
