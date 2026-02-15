@@ -1,4 +1,4 @@
-# 🧠 Python OOP (Object Oriented Programming) – Complete Guide
+# Python OOP (Object Oriented Programming) – Complete Guide
 
 This document explains Python OOP concepts from the very beginning to advanced level with examples and diagrams.
 
