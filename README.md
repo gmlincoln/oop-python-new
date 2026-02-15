@@ -344,3 +344,22 @@ s = Shape()
 
 
 ```
+
+### 🎯 Constructor vs Method Parameter
+Use Constructor When:
+
+Data is permanent (name, width, height)
+
+Use Method Parameter When:
+
+Data changes per operation (amount, message, discount)
+
+Example:
+
+```python
+
+payment = BkashService()
+payment.pay(user, 1000)
+
+
+```
