@@ -4,7 +4,7 @@ This document explains Python OOP concepts from the very beginning to advanced l
 
 ---
 
-# 📌 What is OOP?
+## 📌 What is OOP?
 
 OOP (Object Oriented Programming) is a programming style where we organize code using:
 
@@ -15,7 +15,7 @@ It helps to build real-world structured and scalable applications.
 
 ---
 
-# 🟢 1️⃣ Class
+## 🟢 1️⃣ Class
 
 A class is a blueprint or template.
 
@@ -26,3 +26,9 @@ class Student:
     pass
 ```
 
+##### Student is just a design. It does not hold data ye
+
+
+```python
+
+```
