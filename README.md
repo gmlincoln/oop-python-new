@@ -271,7 +271,7 @@ for animal in [Dog(), Cat()]:
 ```
 
 
-### Definition
+### 🔟 Abstraction
 
 Abstraction means:
 
